@@ -1,0 +1,34 @@
+# Diretórios de ambiente virtual
+venv/
+.venv/
+
+# Arquivos compilados do Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+
+# Configurações do editor/IDE
+.vscode/
+.idea/
+*.swp
+
+# Dependências do projeto (reconstruídas via requirements.txt)
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# Arquivos do Jupyter Notebook
+.ipynb_checkpoints/
+
+# Banco de dados SQLite (caso esteja usando)
+*.sqlite3
+*.db
+
+# Arquivos de credenciais ou variáveis de ambiente
+.env
+.env.local
